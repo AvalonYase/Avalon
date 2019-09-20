@@ -29,6 +29,7 @@ public class UsersBizImpl implements UsersBiz {
 	@Override
 	public Users login(String username, String password) {
 		// TODO Auto-generated method stub
+		System.out.println("github");
 		return um.selectByUsersnameAndPassword(username, password);
 	}
 
